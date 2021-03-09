@@ -1,3 +1,79 @@
 .Header {
+    display: flex;
+    background: rgb(255,104,16);
+    background: linear-gradient(90deg, rgba(255,104,16,1) 0%, rgba(232,55,26,1) 100%);
+    justify-content: center;
+    padding: 35px 35px 20px 35px;
+}
+.Search {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+.MovieIcon {
+    height: 30px;
+}
+.SearchBar {
+    display: flex;
+    padding: 10px;
+    margin-right: 3px;
+    flex: 1;
+    background-color: rgba(255,255,255,0.25);
+    align-items: center;
+}
+.MovieName {
+    margin-left: 10px;
+    color: white;
+    border: none;
+    padding: 0;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    text-align: left;
+}
+.SearchButton {
+    border: none;
+}
+.AutoSuggestForm {
+    position: absolute;
+    top: 0;
+    width: 100%;
     
+}
+.MovieIconBlack {
+    height: 20px;
+    margin-right: 10px;
+}
+.AutoSuggest {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+
+}
+.AutoSuggestLabel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+.Input {
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+}
+.AutocompleteResults {
+    background: white;
+    border-top: 1px solid rgb(211, 205, 205);
+    text-align: left;
+}
+.Results {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Title {
+    font-weight: bold;
 }
