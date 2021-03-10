@@ -39,7 +39,7 @@ class App extends React.Component {
     clearTimeout(this.state.timeout);
     const timeout = setTimeout(() => {
       this.getSearchOptions(query);
-    }, 2000);
+    }, 1000);
     this.setState({ timeout });
   };
   getSearchOptions = (query) => {
